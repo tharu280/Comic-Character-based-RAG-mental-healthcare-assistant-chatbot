@@ -12,9 +12,10 @@ This chatbot uses Google Gemini generative AI, FAISS vector stores, and HuggingF
 - **Multi-user support:** Separate chatbot instances for each user to maintain individual conversation context.
 - **Contextual memory:** Remembers the last 6 messages to maintain coherent conversations.
 - **Knowledge retrieval:** Uses FAISS vector stores with three distinct knowledge bases:
-  - Iroh’s teachings and philosophy
-  - Emotional and mental well-being insights
-  - Rational and scientific ideas
+  - Iroh’s teachings and philosophy: Extracted from Avatat the last Airbender transcripts and fanbooks.
+  - Emotional and mental well-being insights: Extracted from Taoism, Buddhism based book to align with unclr Irohs philosophy.
+  - Rational and scientific ideas: Extracted from multiple WHO recognized mental healthcare books
+- **Parallely connected langchain chains to Vector Stores:** Connected 3 different vector stores with 3 knowledge bases as an experimental method of context combining. 
 - **Personalized prompt templates:** Emulates Uncle Iroh’s gentle, poetic, and wise tone.
 - **FastAPI backend:** Lightweight and scalable REST API for easy integration.
 
