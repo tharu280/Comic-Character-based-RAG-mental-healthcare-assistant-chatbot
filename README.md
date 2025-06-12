@@ -1,5 +1,5 @@
 # Comic-Character-based-RAG-mental-healthcare-assistant-chatbot
-![process steps](./2.png)
+![process steps](./uncle.png)
 # Uncle Iroh Chatbot 
 
 Designing an AI character isn’t just about fine-tuning a model — it’s about sourcing diverse yet coherent knowledge, choosing optimal chunking strategies for context relevance, and architecting parallel retrievers with thoughtful branching logic to simulate multi-dimensional reasoning.
