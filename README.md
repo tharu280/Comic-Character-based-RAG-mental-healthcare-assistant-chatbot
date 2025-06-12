@@ -1,10 +1,12 @@
 # Comic-Character-based-RAG-mental-healthcare-assistant-chatbot
-
+![process steps](./2.png)
 # Uncle Iroh Chatbot 
 
-A conversational chatbot API inspired by **Uncle Iroh** from *Avatar: The Last Airbender*.  
-This chatbot uses Google Gemini generative AI, FAISS vector stores, and HuggingFace embeddings via LangChain to provide wise, gentle, and poetic responses in the style of Uncle Iroh.
+Designing an AI character isn’t just about fine-tuning a model — it’s about sourcing diverse yet coherent knowledge, choosing optimal chunking strategies for context relevance, and architecting parallel retrievers with thoughtful branching logic to simulate multi-dimensional reasoning.
 
+When we think of Uncle Iroh from Avatar: The Last Airbender, we don’t just hear a voice — we feel a presence. Warm, poetic, wise, and deeply human. I wanted to bring that to life in a chatbot — not just another AI assistant, but a digital soul that truly embodies Iroh’s spirit.
+
+But here’s the challenge: Iroh doesn’t speak in plain facts. He speaks with layered philosophy, emotional intelligence, and grounded rationality. So a single-source RAG pipeline wasn’t going to cut it.
 ---
 
 ## Features
